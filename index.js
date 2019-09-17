@@ -22,7 +22,7 @@ app.use((req, res, next) => {
      next();
 })
 
-let tvShowsArray = []
+let tvShowsArray = [] 
 
 app.post('/', (req, res) => {
    tvShowsArray = [...tvShowsArray, req.body]
